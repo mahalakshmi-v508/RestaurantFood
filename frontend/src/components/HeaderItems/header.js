@@ -125,6 +125,9 @@ const Header = () => {
             <a href="/menu"><FontAwesomeIcon icon={faBars} /><span>Menu</span></a>
           </li>
           <li>
+            <a href="/menu"><FontAwesomeIcon icon={faBars} /><span>Food</span></a>
+          </li>
+          <li>
             <a href="/search"><FontAwesomeIcon icon={faSearch} /><span>Search</span></a>
           </li>
           <li>
