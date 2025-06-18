@@ -1,0 +1,89 @@
+/* 👇 Food Slider Outer Container - Centered with max-width like Zomato */
+.food-slider {
+  position: relative;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  margin-top: 6rem;
+  overflow: hidden;
+  max-width: 1200px;         /* 👈 Center width limit */
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+/* 👇 Scroll Container - Flex + Padding inside */
+.food-category-scroll {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  gap: 2rem;
+  padding: 0 2rem;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.food-category-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* 👇 Each card takes space so only 6 show at once */
+.food-category-card {
+  flex: 0 0 calc((100% - 5 * 2rem) / 6); /* 6 items visible + gap */
+  text-align: center;
+}
+
+/* 👇 Circle Image Style */
+.circle-img-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.circle-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 👇 Category Name */
+.category-name {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #3e4152;
+}
+
+/* 👇 Arrow Button Container - Top Right */
+.arrow-buttons-container {
+  position: absolute;
+  top: -10px;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 10;
+}
+
+/* 👇 Individual Arrow Buttons */
+.scroll-btn {
+  background: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.95;
+}
+
+/* 👇 Hidden Arrow Utility */
+.scroll-btn.hidden {
+  display: none;
+}
