@@ -1,0 +1,46 @@
+.menuitem {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuitem-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuitem-name {
+  flex: 1;
+}
+
+.menuitem-dash {
+  width: 90px;
+  height: 1px;
+  background-color: #DCCA87; /* equivalent of bg-primary-golden */
+  margin: 0 1rem;
+}
+
+.menuitem-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.menuitem-sub {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+.title {
+  font-family: 'Cormorant Garamond', serif;
+  color: #DCCA87;
+  font-size: 18px; /* example size */
+}
+
+.subtitle {
+  font-family: 'Open Sans', sans-serif;
+  color: #AAAAAA;
+  font-size: 14px; /* example size */
+}

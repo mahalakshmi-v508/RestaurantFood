@@ -1,0 +1,99 @@
+.chef__bg {
+  background-color: #0c0c0c;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  gap: 2rem;
+}
+.chef__img-container {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  /* Animation setup */
+  transform: translateX(-100px); /* Less aggressive */
+  opacity: 0;
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.chef__img-container.slide-in {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+
+.chef__img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.chef__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.headtext__cormorant {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.p__opensans {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: #aaa;
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.chef__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.chef__quote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.quote__img {
+  width: 47px;
+  height: 40px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.chef__sign {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.chef__name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.sign__img {
+  width: 80%;
+  max-width: 150px;
+  margin-top: 2.5rem;
+  margin-left: 30px;
+}
