@@ -1,0 +1,96 @@
+.laurels-container {
+  background-color: #0c0c0c; /* app__bg */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+.laurels-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.laurels-awards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+}
+.headtext__cormorant{
+  color: white;
+}
+.award-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 1rem 0;
+  min-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .award-card {
+    margin: 1rem;
+    min-width: 230px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .award-card {
+    min-width: 390px;
+  }
+}
+
+.award-card-img {
+  width: 60px;
+  height: auto;
+}
+
+.award-card-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.laurels-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .laurels-image-container {
+    margin-left: 2rem;
+    margin-top: 0;
+  }
+}
+
+.laurels-image {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+@media (max-width: 640px) {
+  .laurels-image {
+    padding: 0;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .laurels-image {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .laurels-image {
+    width: 80%;
+  }
+}

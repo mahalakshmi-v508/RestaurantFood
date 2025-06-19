@@ -1,0 +1,99 @@
+.app__aboutus {
+  background-color: #0c0c0c;
+  color: #DCCA87;
+  position: relative;
+  padding: 4rem 2rem;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.overlay__img {
+  width: 200px;
+  height: auto;
+  opacity: 500;
+}
+
+.about__wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .about__wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+
+.about__section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.25rem;
+}
+
+.about__section h1 {
+  text-align: center;
+}
+
+.p__opensans {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #AAAAAA;
+  text-align: center;
+}
+
+.spoon__img {
+  width: 45px;
+  margin: 0 auto;
+}
+
+.custom__button {
+  background-color: #DCCA87;
+  color: #0c0c0c;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  margin: 1rem auto 0;
+  transition: background-color 0.3s ease;
+}
+
+.custom__button:hover {
+  background-color: #bfa04f;
+}
+
+.knife__img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.knife__img-container img {
+  height: 250px;
+  transform: rotate(90deg);
+}
+
+@media (min-width: 1024px) {
+  .knife__img-container img {
+    transform: rotate(0deg);
+    height: 450px;
+  }
+}
