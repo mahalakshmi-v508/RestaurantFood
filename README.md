@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Namma Eatster Uhhh! Vaa Vanthu Code Download Pannitu Poo..
 =======
+=======
+>>>>>>> 49bf33f (Initialize project using Create React App)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -71,4 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<<<<<<< HEAD
+>>>>>>> 49bf33f (Initialize project using Create React App)
+=======
 >>>>>>> 49bf33f (Initialize project using Create React App)
