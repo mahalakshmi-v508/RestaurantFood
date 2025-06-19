@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
-Namma Eatster Uhhh! Vaa Vanthu Code Download Pannitu Poo..
+Restaurant
 =======
 =======
 >>>>>>> 49bf33f (Initialize project using Create React App)
